@@ -1,0 +1,45 @@
+header {
+  height: 90px;
+  background-color: black;
+}
+
+.right-top-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 45px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.right-top-nav ul li {
+  padding-left: 25px;
+  color: #7eadb9;
+}
+
+.right-top-nav ul li i {
+  color: #018ce3;
+}
+
+.left-bottom-nav {
+  display: flex;
+  align-items: center;
+  height: 45px;
+}
+
+.left-bottom-nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  padding-right: 40px;
+  color: white;
+}
+
+.left-bottom-nav ul li img {
+  height: 32px;
+  padding-bottom: 9px;
+}
