@@ -29,7 +29,6 @@ ul {
 }
 
 header {
-  height: 90px;
   background-color: black;
 }
 header ul {
@@ -130,4 +129,83 @@ header .jumbo .container .jumbo-info button[name=learn] {
   font-size: 17px;
   background-color: black;
   text-transform: uppercase;
+}
+
+main {
+  background-color: #e8e8e8;
+}
+main .container h1 {
+  padding: 40px;
+  text-align: center;
+  color: #636460;
+}
+main .container .cards {
+  display: flex;
+  margin: -10px;
+}
+main .container .cards .card {
+  width: calc(100% / 3);
+  padding: 10px;
+}
+main .container .cards .card .card-info {
+  padding-bottom: 20px;
+  background-color: white;
+}
+main .container .cards .card .card-info img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+main .container .cards .card .card-info span {
+  padding-right: 5px;
+  color: rgba(0, 0, 255, 0.5);
+  font-style: italic;
+  text-transform: uppercase;
+}
+main .container .cards .card .card-info h4 {
+  padding: 0 20px;
+  color: #5a5a5a;
+}
+main .container .cards .card .card-info p {
+  padding: 10px 20px;
+  color: #525252;
+}
+main .container .cards .card .card-info p span {
+  color: #525252;
+  position: relative;
+  top: -2px;
+  left: 0;
+  font-size: 12px;
+}
+main .container .cards .card .card-info a {
+  padding-left: 20px;
+  text-decoration: none;
+}
+main .container .cards-bottom {
+  padding-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .container .cards-bottom div {
+  width: 50%;
+  height: 250px;
+}
+main .container .cards-bottom div.first-card-img {
+  background-image: url("./img/wacom-painter.jpg");
+  background-size: cover;
+  position: relative;
+}
+main .container .cards-bottom div.first-card-img img {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 65%;
+}
+main .container .cards-bottom div.second-card-img {
+  background-image: url("./img/painter-master.jpg");
+  background-size: cover;
+}
+main .container .cards-bottom div.third-card-img {
+  background-image: url("./img/business-education.jpg");
+  background-size: cover;
 }
