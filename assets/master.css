@@ -181,6 +181,7 @@ main .container .cards .card .card-info a {
   text-decoration: none;
 }
 main .container .cards-bottom {
+  color: white;
   padding-top: 60px;
   width: 100%;
   display: flex;
@@ -189,6 +190,26 @@ main .container .cards-bottom {
 main .container .cards-bottom div {
   width: 50%;
   height: 250px;
+}
+main .container .cards-bottom div.first-card-bottom {
+  padding: 45px;
+  background-color: #3c1567;
+}
+main .container .cards-bottom div.first-card-bottom h2 {
+  padding-bottom: 25px;
+  font-weight: 400;
+}
+main .container .cards-bottom div.first-card-bottom p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+main .container .cards-bottom div.first-card-bottom button {
+  font-weight: 600;
+  opacity: 0.9;
+  padding: 5px 15px;
+  text-transform: uppercase;
 }
 main .container .cards-bottom div.first-card-img {
   background-image: url("./img/wacom-painter.jpg");
@@ -204,6 +225,46 @@ main .container .cards-bottom div.first-card-img img {
 main .container .cards-bottom div.second-card-img {
   background-image: url("./img/painter-master.jpg");
   background-size: cover;
+}
+main .container .cards-bottom div.second-card-bottom {
+  padding: 45px;
+  background-color: #3c3c3c;
+}
+main .container .cards-bottom div.second-card-bottom h2 {
+  padding-bottom: 25px;
+  font-weight: 400;
+}
+main .container .cards-bottom div.second-card-bottom p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+main .container .cards-bottom div.second-card-bottom button {
+  font-weight: 600;
+  opacity: 0.9;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+main .container .cards-bottom div.third-card-bottom {
+  padding: 45px;
+  background-color: #0072BC;
+}
+main .container .cards-bottom div.third-card-bottom h2 {
+  padding-bottom: 25px;
+  font-weight: 400;
+}
+main .container .cards-bottom div.third-card-bottom p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+main .container .cards-bottom div.third-card-bottom button {
+  font-weight: 600;
+  opacity: 0.9;
+  padding: 5px 15px;
+  text-transform: uppercase;
 }
 main .container .cards-bottom div.third-card-img {
   background-image: url("./img/business-education.jpg");
