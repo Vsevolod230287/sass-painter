@@ -270,3 +270,76 @@ main .container .cards-bottom div.third-card-img {
   background-image: url("./img/business-education.jpg");
   background-size: cover;
 }
+
+footer {
+  background-color: #ECECEC;
+}
+footer section.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer section.footer-links ul li:first-child {
+  padding: 10px 0;
+}
+footer section.footer-links li a {
+  text-decoration: none;
+  color: #C11D2F;
+}
+footer section.footer-links li.social {
+  font-size: 30px;
+  padding-top: 30px;
+}
+footer section.footer-links li.social i.fa-instagram-square {
+  color: #E55A74;
+}
+footer section.footer-links li.social i.fa-facebook-square {
+  color: #3B5998;
+}
+footer section.footer-links li.social i.fa-twitter-square {
+  color: #1DA1F2;
+}
+footer section.footer-links li.social i.fa-youtube-square {
+  color: #CD201F;
+}
+footer section.footer-links li.social i.fa-pinterest-square {
+  color: #BD081C;
+}
+footer section.footer-links li.social i.fa-rss-square {
+  color: #FF8D00;
+}
+footer section.footer-last-bottom {
+  background-color: #1E1E1E;
+  height: 70px;
+}
+footer section.footer-last-bottom .footer-very {
+  display: flex;
+  justify-content: space-between;
+}
+footer section.footer-last-bottom .footer-very .footer-logo {
+  width: 50%;
+}
+footer section.footer-last-bottom .footer-very .footer-logo img {
+  padding-left: 40px;
+}
+footer section.footer-last-bottom .footer-very .policy-privacy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+footer section.footer-last-bottom .footer-very .policy-privacy ul {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer section.footer-last-bottom .footer-very .policy-privacy ul li a {
+  font-size: 12px;
+  color: #605B53;
+  text-decoration: none;
+}
+footer section.footer-last-bottom .footer-very .policy-privacy ul li:last-child a {
+  color: white;
+}
